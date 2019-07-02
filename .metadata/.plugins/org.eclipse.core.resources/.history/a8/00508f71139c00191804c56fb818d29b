@@ -1,0 +1,29 @@
+package stepDefinition;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class Steps 
+{
+
+	@Given("^Application is up and running$")
+	public void application_is_up_and_running() 
+	{
+	    System.out.println("Application is Up and Running");
+	}
+
+	@When("^I enter valid credentials$")
+	public void i_enter_valid_credentials() 
+	{
+		 System.out.println("Enter Credentials");
+	}
+
+	@Then("^I should be looged in successfully\\.$")
+	public void i_should_be_looged_in_successfully()
+	{
+		 System.out.println("I should be logged in successfully");
+	}
+
+	
+}

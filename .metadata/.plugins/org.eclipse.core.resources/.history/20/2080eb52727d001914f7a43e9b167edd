@@ -1,0 +1,15 @@
+package arrays;
+
+public class Array1 
+{
+
+	public static void main(String[] args) 
+	{
+		String name="Swati";
+		System.out.println(name);
+		
+		String name2="Anand";
+		System.out.println(name2);
+	}
+
+}

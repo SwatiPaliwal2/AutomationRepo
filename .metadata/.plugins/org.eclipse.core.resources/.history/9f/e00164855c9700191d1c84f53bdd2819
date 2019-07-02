@@ -1,0 +1,13 @@
+package SamplePackage;
+
+import org.junit.Test;
+
+public class TestClass 
+{
+	@Test
+	public void login()
+	{
+		System.out.println("Login Test Case");
+	}
+
+}
